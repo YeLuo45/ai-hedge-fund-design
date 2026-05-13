@@ -1,0 +1,259 @@
+/* AI Hedge Fund Design - Professional Dark Theme with Gold/Green Accents */
+
+:root {
+  --vp-c-bg: #0a0f14;
+  --vp-c-bg-alt: #0d1319;
+  --vp-c-bg-elv: #111920;
+  --vp-c-bg-soft: #1a242e;
+
+  --vp-c-text-1: #e8edf3;
+  --vp-c-text-2: #a8b5c4;
+  --vp-c-text-3: #6b7a8a;
+
+  --vp-c-brand-1: #f0b429;
+  --vp-c-brand-2: #d4a012;
+  --vp-c-brand-3: #b8890f;
+
+  --vp-c-divider: #1e2832;
+  --vp-c-gutter: #0d1319;
+
+  --vp-nav-bg-color: rgba(10, 15, 20, 0.95);
+  --vp-sidebar-bg-color: #0d1319;
+
+  --vp-code-block-bg: #0d1319;
+  --vp-code-color: #f0b429;
+
+  --vp-c-default-soft: #1e2832;
+  --vp-c-tip-soft: #1a2420;
+  --vp-c-warning-soft: #2a2418;
+  --vp-c-danger-soft: #241a1a;
+}
+
+/* Hero Section */
+.VPHero {
+  background: linear-gradient(135deg, #0a0f14 0%, #111920 50%, #0d1319 100%) !important;
+}
+
+/* Hero Title Gradient - Gold */
+.VPHero .name {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(120deg, #f0b429 0%, #d4a012 40%, #4ade80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  font-size: 1.5rem;
+  color: #a8b5c4;
+}
+
+.VPHero .tagline {
+  color: #6b7a8a;
+  font-size: 1.1rem;
+}
+
+/* Feature Cards */
+.VPFeature {
+  background: rgba(30, 40, 50, 0.5) !important;
+  border: 1px solid rgba(240, 180, 41, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPFeature:hover {
+  background: rgba(30, 40, 50, 0.8) !important;
+  border-color: rgba(240, 180, 41, 0.3) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 40px rgba(240, 180, 41, 0.1) !important;
+}
+
+.VPFeature .title {
+  color: #e8edf3 !important;
+}
+
+.VPFeature .details {
+  color: #a8b5c4 !important;
+}
+
+/* Navigation */
+.VPNav {
+  background: rgba(10, 15, 20, 0.95) !important;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(30, 40, 50, 0.8);
+}
+
+.VPNavBarTitle .title {
+  color: #f0b429 !important;
+  font-weight: 700;
+}
+
+.VPNavBarMenuLink {
+  color: #a8b5c4 !important;
+}
+
+.VPNavBarMenuLink:hover,
+.VPNavBarMenuLink.active {
+  color: #f0b429 !important;
+}
+
+/* Sidebar */
+.VPSidebar {
+  background: #0d1319 !important;
+  border-right: 1px solid #1e2832;
+}
+
+.VPSidebarItem .text {
+  color: #a8b5c4 !important;
+}
+
+.VPSidebarItem.is-active > .item .text {
+  color: #f0b429 !important;
+}
+
+/* Buttons */
+.VPButton {
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.VPButton.medium.brand {
+  background: linear-gradient(135deg, #d4a012 0%, #f0b429 100%);
+  border: none;
+  color: #0a0f14 !important;
+}
+
+.VPButton.medium.brand:hover {
+  background: linear-gradient(135deg, #e0b520 0%, #f5c030 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(240, 180, 41, 0.25);
+}
+
+/* Content */
+.VPDoc {
+  background: #0a0f14;
+}
+
+.VPDoc h1 {
+  color: #e8edf3;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #1e2832;
+  padding-bottom: 0.5rem;
+}
+
+.VPDoc h2 {
+  color: #e8edf3;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.VPDoc h3 {
+  color: #e8edf3;
+  font-size: 1.25rem;
+}
+
+.VPDoc p {
+  color: #a8b5c4;
+  line-height: 1.8;
+}
+
+.VPDoc a {
+  color: #f0b429;
+}
+
+.VPDoc a:hover {
+  color: #f5c030;
+}
+
+/* Code Blocks */
+.vp-code-group .tabs {
+  background: #0d1319;
+  border-bottom: 1px solid #1e2832;
+}
+
+.vp-code-group .tabs button {
+  color: #6b7a8a;
+}
+
+.vp-code-group .tabs button.active {
+  color: #f0b429;
+  border-bottom: 2px solid #f0b429;
+}
+
+div[class*="language-"] {
+  background: #0d1319 !important;
+  border: 1px solid #1e2832;
+  border-radius: 8px;
+}
+
+div[class*="language-"] code {
+  color: #e8edf3;
+}
+
+/* Tables */
+.VPDoc table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.VPDoc th {
+  background: #0d1319;
+  color: #e8edf3;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border: 1px solid #1e2832;
+}
+
+.VPDoc td {
+  color: #a8b5c4;
+  padding: 0.75rem 1rem;
+  border: 1px solid #1e2832;
+}
+
+.VPDoc tr:hover {
+  background: rgba(30, 40, 50, 0.3);
+}
+
+/* Blockquotes */
+.VPDoc blockquote {
+  background: rgba(30, 40, 50, 0.5);
+  border-left: 4px solid #d4a012;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.VPDoc blockquote p {
+  color: #a8b5c4;
+  margin: 0;
+}
+
+/* Footer */
+.VPFooter {
+  background: #0d1319 !important;
+  border-top: 1px solid #1e2832;
+}
+
+.VPFooter .message,
+.VPFooter .copyright {
+  color: #6b7a8a;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1319;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e2832;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3842;
+}
